@@ -1,6 +1,7 @@
 from template.scrap_git import RepositoryGit
 
 if __name__ == '__main__':
+    # Obteniendo informacion
     rep: RepositoryGit = RepositoryGit()
     rep.get_status()
     repository_names = rep.get_repository()
